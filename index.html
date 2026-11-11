@@ -301,7 +301,7 @@ function inicio(){
   app.innerHTML =
     '<div class="wrap"><section class="hero"><div style="flex:1 1 440px;min-width:0"><p class="sobre">Portal de vendas · '+esc(D.mes)+'</p><span class="regua"></span>'+
     '<h1 class="titulo" style="margin-top:22px">Tabelas e<b>disponibilidade.</b></h1>'+
-    '<p class="sub">Preços de '+esc(D.mes.toLowerCase())+', atualizados em '+esc(D.atualizado)+'. Status das unidades do VIMOB de '+esc(D.status)+'.</p></div>'+
+    '</div>'+
     '<div style="display:flex;flex-direction:column;align-items:flex-start;gap:26px"><div class="kpis"><div class="kpi"><b>'+totLivres.toLocaleString('pt-BR')+'</b><small>Unidades livres</small></div><div class="kpi"><b>'+vendendo.length+'</b><small>Empreendimentos</small></div></div>'+
     '<a class="btn" href="#/disponibilidade">Disponibilidade completa '+SETA+'</a></div></section>'+
     '<section class="filtros" aria-label="Filtros"><div class="busca"><label class="l" for="busca">Buscar</label><input id="busca" class="campo" type="search" placeholder="Empreendimento ou bairro" value="'+esc(estado.busca)+'"></div>'+
